@@ -1,11 +1,17 @@
 /* Create a `myName` variable and assign it a String value */
-var myName = 'Today is a rainy day';
+var myName = 'Crescendi';
 console.log('myName:', myName);
 
 /* Create a `person` variable and give it 2 properties,
  * `name`, assign it the same name as before,
  * as well as an `age` (number);
  */
+var person = {
+  name: 'Crescendi',
+  age: 100
+};
+
+
 
 /* Create a variable called `canDrive`,
  * if it should be true if your person object is at least 16 years old
