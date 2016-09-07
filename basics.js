@@ -1,4 +1,5 @@
 /* Create a `myName` variable and assign it a String value */
+var myName = 'Today is a rainy day';
 
 /* Create a `person` variable and give it 2 properties,
  * `name`, assign it the same name as before,
