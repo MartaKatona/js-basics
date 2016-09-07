@@ -46,3 +46,17 @@ var person = {
  * it should have a `bark` function that makes your dog bark!
  * It should also have a name attribute with the value of 'Spot'
  */
+var noises = ['ahoy','cool','yiha'];
+var dog = {
+  name: 'Spot',
+  bark: function (){
+      //var barking = '';
+      //for (var i = 0; i < noises.length; i++) {
+        //barking += noises[i] + ' ';
+        //console.log('barking',barking);
+      //}
+      return console.log ('My name is ' + dog.name + ', ' + noises[0] + '!');
+    }
+  };
+dog.bark();
+
