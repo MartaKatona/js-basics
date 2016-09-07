@@ -37,6 +37,11 @@ var person = {
  * (there are 6 different data types);
  */
 
+ var dataTypes = [1,'array',true,null,undefined,[1,2,3],{weather:'rainy',temperature:78,highSurf:false}];
+ for (var i = 0; i < dataTypes.length; i++) {
+      console.log(i,'  ',dataTypes[i]);
+ }
+
 /* Create a `dog` object
  * it should have a `bark` function that makes your dog bark!
  * It should also have a name attribute with the value of 'Spot'
